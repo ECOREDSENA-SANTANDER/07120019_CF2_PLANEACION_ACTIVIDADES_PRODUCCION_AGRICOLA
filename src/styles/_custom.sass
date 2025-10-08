@@ -176,9 +176,8 @@ table.color-acento-contenido thead
   content: url('../assets/curso/temas/bg/5.svg')
   transform: rotate(0deg)
   left: 15px
-.des
-  max-width: 100%  
-  overflow-wrap: break-word
+.tabla-b table, .tabla-c table 
+    min-width: 500px;
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -199,6 +198,11 @@ table.color-acento-contenido thead
     background-repeat: no-repeat
   &-2
     background-image: url("../assets/curso/temas/bg/3.svg") !important
+    background-position: center
+    background-size: cover
+    background-repeat: no-repeat
+  &-3
+    background-image: url("../assets/curso/temas/bg/6.png") !important
     background-position: center
     background-size: cover
     background-repeat: no-repeat
@@ -227,8 +231,13 @@ table.color-acento-contenido thead
       background-color: #DEE4F0 !important
   &-11
       background-color: #FEF4E4 !important
+  &-12
+      background-color: #fff !important
 .w-fit
   width: fit-content !important
+.w-cus
+  &-1
+    width: 30% !important
 .br
   &-1
     border-radius: 10px !important

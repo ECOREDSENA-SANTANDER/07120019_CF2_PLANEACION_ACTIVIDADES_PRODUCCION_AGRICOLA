@@ -132,8 +132,295 @@
           img(src='@/assets/curso/temas/bg/1.svg', alt='')
         .col
           h3.mb-0.titulo-icono-text.px-0.py-2 Tipos de planes de acción 
-      p.mb-5 Slyder
-      
+      .bg-full-width.bg-fondo-3.mb-5(data-aos="fade-right")
+        .p-full-width
+          .bg-color-12.p-4.br-1
+            SlyderA(tipo="b")(data-aos="zoom-in-left")
+              .row.justify-content-center.align-items.p-0.p-lg-4.mb-0
+                .col-lg-11
+                  .row.justify-content-center.mb-0
+                    .col-sm-12.col-lg-4.mb-cus
+                      .row.align-items-center.mb-5.titulo-icono-2(data-aos="fade-right")
+                        .col
+                          h3.mb-0.titulo-icono-2-text.px-0.py-2 Operativo
+                      p.mb-5 Se centra en las actividades rutinarias y del día a día, como el manejo de cultivos, la operación de maquinaria, la logística de cosecha o la planificación y distribución de insumos. 
+                      p.mb-3.fw-bold Ejemplo
+                      p.mb-0 #[b Objetivo:] optimizar la eficiencia del sistema de riego por aspersión en el cultivo de lechuga. 
+
+                    .col-sm-12.col-lg-8
+                      .titulo-sexto.color-acento-contenido(data-aos="fade-left")
+                          p.mb-0 #[b Tabla 3.] Ejemplo plan de acción operativo
+                      .tabla-b.color-acento-contenido.mb-0(data-aos="fade-left")
+                        table.color-acento-contenido(alt="La tabla presenta un ejemplo de plan de acción operativo enfocado en el uso eficiente del agua. Incluye actividades como revisar aspersores, programar riegos y capacitar al personal. El responsable es el supervisor de campo, con recursos como mano de obra, cronogramas y herramientas. El tiempo estimado es de 2 semanas y los indicadores son la reducción del consumo de agua y la mejora del rendimiento por hectárea.")
+                          thead.bg-color-7
+                            tr
+                              th.h4.w-cus-1 Tipo de recurso
+                              th.h4 Descripción
+                          tbody
+                            tr
+                              td.fw-bold.text-left-cus  Actividades
+                              td.text-left-cus 
+                                ul.lista-ul--color.color-secundario.mb-0
+                                  li.d-flex
+                                    i.fas.fa-circle-check
+                                    p.mb-0  Revisar estado de los aspersores.
+                                  li.d-flex
+                                    i.fas.fa-circle-check
+                                    p.mb-0 Programar riegos por turnos.
+                                  li.d-flex
+                                    i.fas.fa-circle-check
+                                    p.mb-0 Capacitar al personal en uso eficiente del agua.
+
+                            tr
+                              td.fw-bold.text-left-cus  Responsable
+                              td.text-left-cus  Supervisor de campo.
+
+                            tr
+                              td.fw-bold.text-left-cus  Recursos
+                              td.text-left-cus  Mano de obra, cronogramas, herramientas, cronómetro.
+
+                            tr
+                              td.fw-bold.text-left-cus  Tiempo estimado
+                              td.text-left-cus  2 semanas.
+
+                            tr
+                              td.fw-bold.text-left-cus  Indicadores
+                              td.text-left-cus  Reducción del consumo de agua (litros/ha), mejora del rendimiento por hectárea.
+            
+
+              .row.justify-content-center.align-items.p-0.p-lg-4.mb-0
+                .col-lg-11
+                  .row.justify-content-center.mb-0
+                    .col-sm-12.col-lg-4.mb-cus
+                      .row.align-items-center.mb-5.titulo-icono-2(data-aos="fade-right")
+                        .col
+                          h3.mb-0.titulo-icono-2-text.px-0.py-2 Correctivo
+                      p.mb-5 Tiene como propósito solucionar problemas ya identificados, tales como la presencia de plagas, bajos niveles de rendimiento productivo o fallas en los procesos de comercialización.
+                      p.mb-3.fw-bold Ejemplo
+                      p.mb-0 #[b Objetivo:] reducir las pérdidas de producto durante el transporte desde la finca hasta el centro de acopio.
+
+                    .col-sm-12.col-lg-8
+                      .titulo-sexto.color-acento-contenido(data-aos="fade-left")
+                          p.mb-0 #[b Tabla 4.] Ejemplo plan de acción correctivo
+                      .tabla-b.color-acento-contenido.mb-0(data-aos="fade-left")
+                        table.color-acento-contenido(alt="La tabla muestra un plan de acción correctivo orientado a mejorar el embalaje y transporte. Incluye actividades como evaluar daños, cambiar cajas y capacitar transportistas. El responsable es el jefe de logística, con recursos como cajas plásticas y manuales de transporte. El tiempo estimado es de 3 semanas y los indicadores son la reducción de pérdidas postcosecha y la satisfacción del cliente final.")
+                            thead.bg-color-7
+                              tr
+                                th.h4.w-cus-1 Tipo de recurso
+                                th.h4 Descripción
+                            tbody
+                              tr
+                                td.fw-bold.text-left-cus Actividades
+                                td.text-left-cus 
+                                  ul.lista-ul--color.color-secundario.mb-0
+                                    li.d-flex
+                                      i.fas.fa-circle-check
+                                      p.mb-0 Evaluar daños en embalaje actual.
+                                    li.d-flex
+                                      i.fas.fa-circle-check
+                                      p.mb-0 Cambiar tipo de cajas por otras más resistentes.
+                                    li.d-flex
+                                      i.fas.fa-circle-check
+                                      p.mb-0 Capacitar a transportistas sobre carga segura.
+
+                              tr
+                                td.fw-bold.text-left-cus Responsable
+                                td.text-left-cus Jefe de logística.
+
+                              tr
+                                td.fw-bold.text-left-cus Recursos
+                                td.text-left-cus Nuevas cajas plásticas, manual de transporte seguro, tiempo de capacitación.
+
+                              tr
+                                td.fw-bold.text-left-cus Tiempo estimado
+                                td.text-left-cus 3 semanas.
+
+                              tr
+                                td.fw-bold.text-left-cus Indicadores
+                                td.text-left-cus Reducción de pérdidas postcosecha (%), satisfacción del cliente final.
+
+              .row.justify-content-center.align-items.p-0.p-lg-4.mb-0
+                .col-lg-11
+                  .row.justify-content-center.mb-0
+                    .col-sm-12.col-lg-4.mb-cus
+                      .row.align-items-center.mb-5.titulo-icono-2(data-aos="fade-right")
+                        .col
+                          h3.mb-0.titulo-icono-2-text.px-0.py-2 Preventivo
+                      p.mb-5 Está orientado a anticiparse a posibles riesgos o contingencias, implementando acciones que reduzcan la probabilidad de que ocurran problemas futuros, como la preparación de drenajes para la temporada de lluvias o el mantenimiento preventivo de equipos.
+                      p.mb-3.fw-bold Ejemplo
+                      p.mb-0 #[b Objetivo:] prevenir la aparición de plagas en el cultivo de tomate durante la temporada de lluvias. 
+
+                    .col-sm-12.col-lg-8
+                      .titulo-sexto.color-acento-contenido(data-aos="fade-left")
+                          p.mb-0 #[b Tabla 5.] Ejemplo plan de acción preventivo 
+                      .tabla-b.color-acento-contenido.mb-0(data-aos="fade-left")
+                        table.color-acento-contenido(alt="La tabla presenta un plan de acción preventivo para el cultivo, con actividades como aplicar bioinsumos, limpiar el follaje e instalar trampas cromáticas. El responsable es el técnico fitosanitario, los recursos incluyen bioinsumos, personal y trampas, con un tiempo estimado de un mes y como indicadores el control de infestación y cumplimiento en la aplicación.")
+                            thead.bg-color-7
+                              tr
+                                  th.h4.w-cus-1 Tipo de recurso
+                                  th.h4 Descripción
+                            tbody
+                              tr
+                                td.fw-bold.text-left-cus Actividades
+                                td.text-left-cus 
+                                  ul.lista-ul--color.color-secundario.mb-0
+                                    li.d-flex
+                                      i.fas.fa-circle-check
+                                      p.mb-0 Aplicación preventiva de bioinsumos.
+                                    li.d-flex
+                                      i.fas.fa-circle-check
+                                      p.mb-0 Limpieza regular del follaje.
+                                    li.d-flex
+                                      i.fas.fa-circle-check
+                                      p.mb-0 Instalación de trampas cromáticas.
+
+                              tr
+                                td.fw-bold.text-left-cus Responsable
+                                td.text-left-cus Técnico fitosanitario.
+
+                              tr
+                                td.fw-bold.text-left-cus Recursos
+                                td.text-left-cus Bioinsumos orgánicos, personal de campo, trampas.
+
+                              tr
+                                td.fw-bold.text-left-cus Tiempo estimado
+                                td.text-left-cus 1 mes (inicio de temporada).
+
+                              tr
+                                td.fw-bold.text-left-cus Indicadores
+                                td.text-left-cus Niveles de infestación bajo umbral, frecuencia de aplicación cumplida.
+
+              .row.justify-content-center.align-items.p-0.p-lg-4.mb-0
+                .col-lg-11
+                  .row.justify-content-center.mb-0
+                    .col-sm-12.col-lg-4.mb-cus
+                      .row.align-items-center.mb-5.titulo-icono-2(data-aos="fade-right")
+                        .col
+                          h3.mb-0.titulo-icono-2-text.px-0.py-2 Estratégico
+                      p.mb-5 Se relaciona con objetivos de largo plazo que buscan garantizar la sostenibilidad, el crecimiento y la competitividad del negocio agrícola. Incluye acciones como la diversificación de cultivos, la obtención de certificaciones de calidad u orgánicas, o la apertura a nuevos mercados.
+                      p.mb-3.fw-bold Ejemplo
+                      p.mb-0 #[b Objetivo:] desarrollar una línea de productos derivados del café (vino, café tostado y molido, dulces y mermeladas) para ampliar la oferta comercial y acceder a nuevos segmentos de mercado.
+
+                    .col-sm-12.col-lg-8
+                      .titulo-sexto.color-acento-contenido(data-aos="fade-left")
+                          p.mb-0 #[b Tabla 6.] Ejemplo plan de acción estratégica
+                      .tabla-b.color-acento-contenido.mb-0(data-aos="fade-left")
+                        table.color-acento-contenido(alt="La tabla muestra un plan de acción estratégico que incluye estudio de mercado, diseño de marca y adquisición de equipos. El responsable es el coordinador de innovación, con recursos como consultores, software y presupuesto. Se estima un tiempo de seis meses y los indicadores son productos desarrollados, ventas iniciales y obtención del registro sanitario.")
+                            thead.bg-color-7
+                              tr
+                                  th.h4.w-cus-1 Tipo de recurso
+                                  th.h4 Descripción
+                            tbody
+                              tr
+                                td.fw-bold.text-left-cus Actividades
+                                td.text-left-cus 
+                                  ul.lista-ul--color.color-secundario.mb-0
+                                    li.d-flex
+                                      i.fas.fa-circle-check
+                                      p.mb-0 Estudio de mercado.
+                                    li.d-flex
+                                      i.fas.fa-circle-check
+                                      p.mb-0 Diseño de etiqueta y marca.
+                                    li.d-flex
+                                      i.fas.fa-circle-check
+                                      p.mb-0 Adquisición de equipo básico de procesamiento.
+
+                              tr
+                                td.fw-bold.text-left-cus Responsable
+                                td.text-left-cus Coordinador de innovación / agregado de valor.
+
+                              tr
+                                td.fw-bold.text-left-cus Recursos
+                                td.text-left-cus Consultores externos, software de diseño, presupuesto de inversión.
+
+                              tr
+                                td.fw-bold.text-left-cus Tiempo estimado
+                                td.text-left-cus 6 meses.
+
+                              tr
+                                td.fw-bold.text-left-cus Indicadores
+                                td.text-left-cus Nuevos productos desarrollados, ventas iniciales, registro sanitario logrado.
+
+              .row.justify-content-center.align-items.p-0.p-lg-4.mb-0
+                .col-lg-11
+                  .row.justify-content-center.mb-0
+                    .col-sm-12.col-lg-4.mb-cus
+                      .row.align-items-center.mb-5.titulo-icono-2(data-aos="fade-right")
+                        .col
+                          h3.mb-0.titulo-icono-2-text.px-0.py-2 Contingencia
+                      p.mb-5 Se elabora para dar respuesta a situaciones de emergencia o imprevistos que puedan afectar el normal desarrollo de la actividad agrícola, como sequías, heladas, brotes de enfermedades o crisis económicas. Este tipo de plan permite reaccionar de manera oportuna y reducir el impacto negativo de los eventos inesperados.
+                      p.mb-3.fw-bold Ejemplo
+                      p.mb-0 #[b Objetivo:] implementar medidas de respuesta frente a una sequía prolongada que compromete el rendimiento del cultivo de maíz, mediante el uso de sistemas de riego alternativos y prácticas de conservación de humedad en el suelo.
+
+                    .col-sm-12.col-lg-8
+                      .titulo-sexto.color-acento-contenido(data-aos="fade-left")
+                          p.mb-0 #[b Tabla 7.] Ejemplo plan de acción de contingencia
+                      .tabla-b.color-acento-contenido.mb-0(data-aos="fade-left")
+                        table.color-acento-contenido(alt="La tabla presenta un plan de acción de contingencia para responder a emergencias climáticas, con actividades como activar riego de emergencia, priorizar parcelas y solicitar apoyos. Los responsables son el encargado de producción y el administrador, con recursos de riego alternativo, presupuesto y gestión institucional. Se ejecuta de forma inmediata y se mide con área rescatada, continuidad productiva y pérdidas mitigadas.")
+                            thead.bg-color-7
+                              tr
+                                  th.h4.w-cus-1 Tipo de recurso
+                                  th.h4 Descripción
+                            tbody
+
+                              tr
+                                td.fw-bold.text-left-cus Actividades
+                                td.text-left-cus 
+                                  ul.lista-ul--color.color-secundario.mb-0
+                                    li.d-flex
+                                      i.fas.fa-circle-check
+                                      p.mb-0 Activar sistema de riego de emergencia.
+                                    li.d-flex
+                                      i.fas.fa-circle-check
+                                      p.mb-0  Priorizar parcelas clave.
+                                    li.d-flex
+                                      i.fas.fa-circle-check
+                                      p.mb-0  Solicitar apoyo institucional (subsidios o ayudas).
+
+                              tr
+                                td.fw-bold.text-left-cus Responsable
+                                td.text-left-cus Encargado de producción + administrador general.
+
+                              tr
+                                td.fw-bold.text-left-cus Recursos
+                                td.text-left-cus Riego alternativo, presupuesto de emergencia, relaciones institucionales.
+
+                              tr
+                                td.fw-bold.text-left-cus Tiempo estimado
+                                td.text-left-cus Inmediato - según duración del evento climático.
+
+                              tr
+                                td.fw-bold.text-left-cus Indicadores
+                                td.text-left-cus Porcentaje de área rescatada, continuidad de la producción, nivel de pérdidas mitigadas.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       .row.align-items-center.mb-5.titulo-icono(data-aos="fade-right")
         .col-auto.titulo-icono-img
           img(src='@/assets/curso/temas/bg/1.svg', alt='')
@@ -181,7 +468,7 @@
           h3.mb-0.titulo-icono-text.px-0.py-2  Componentes  
       
       .titulo-sexto.color-acento-contenido(data-aos="fade-left")
-          p.mb-0 #[b Tabla 3.] Componentes del plan de acción 
+          p.mb-0 #[b Tabla 8.] Componentes del plan de acción 
       .tabla-b.color-acento-contenido.mb-5(data-aos="fade-left")
         table.color-acento-contenido(alt="La tabla describe los componentes básicos de un plan de acción: objetivos que definen la meta, actividades concretas para alcanzarlos, responsables asignados, recursos necesarios, plazos y cronogramas, indicadores de avance y mecanismos de seguimiento y evaluación.")
           thead.bg-color-7 
