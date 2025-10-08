@@ -130,7 +130,21 @@ figcaption
         font-size: 0.85em
 table.color-acento-contenido thead 
     background-color: $color-acento-contenido
-
+.lista-ul--color.color-secundario li > i:first-of-type 
+    color: #B06A00
+.linea-tiempo-d.color-secundario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number,
+.linea-tiempo-d.color-secundario .linea-tiempo-d__item--selected .linea-tiempo-d__item__content 
+    background-color: #E5EEB0 !important
+    color: $color-sistema-texto !important
+.linea-tiempo-d .tarjeta 
+    border-radius: 5px
+.tarjeta--gris  
+    background-color: #F4CD57
+.linea-tiempo-d.color-secundario.activo .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
+    background-color:#E5EEB0
+    color: black !important
+.linea-tiempo-d.color-secundario.activo .linea-tiempo-d__item__number 
+    background-color: #F4CD57
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
@@ -175,6 +189,8 @@ table.color-acento-contenido thead
       background-color: #F3F9FF !important
   &-9
     background-color: $color-secundario
+  &-10
+      background-color: #DEE4F0 !important
 .w-fit
   width: fit-content !important
 .br
@@ -195,7 +211,10 @@ table.color-acento-contenido thead
     padding-right: 4rem !important
 .text-left
   &-cus
-    text-align: left !important     
+    text-align: left !important
+.titcus
+  &-1     
+    color: #7E4B00
 .titulo-icono
   background-color: #CCDD63
   border-top-right-radius: 30px
@@ -273,6 +292,8 @@ table.color-acento-contenido thead
 
   .crd_hover_txt .crd_hover_txt--body
     padding: 1.2rem;
+  .bloque-texto-g 
+    padding-top: 50px !important;
   
   
 //// TABLET MINI 768--------------------------------------
@@ -314,3 +335,6 @@ table.color-acento-contenido thead
 
   .crd_hover_txt .crd_hover_txt--body
     padding: 1.2rem;
+  .bloque-texto-g 
+    padding-top: 20px !important;
+    
