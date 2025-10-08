@@ -48,6 +48,88 @@ figcaption
     font-weight: normal !important
 
     background-color: #F6F6F6 !important
+.tabs-a__tab 
+    background-color: #CCDD63
+.circl-arrow .slyder-f__btn i
+  font-size: 1.2rem
+  background-color: $color-acento-botones
+  color: $white
+  height: 46px
+  width: 46px
+  padding: 5px
+  border-radius: 500px
+  display: flex
+  justify-content: center
+  align-items: center
+/**COENCATADA*/
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5
+    color: #7F4FC7
+  p
+    margin-bottom: 0
+  &::before
+    position: absolute
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+
+.crd--first
+  &::before
+    background-color: #F3F9FF !important
+    border-top-left-radius: 30px
+.crd--last
+  &::before
+    background-color: #DEE4F0 !important
+    border-bottom-left-radius: 30px
+.cursor-pointer.crd_hover_txt
+  cursor: pointer
+.cursor-pointer.crd_hover_txt
+  cursor: pointer
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  border-radius: 20px;
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+      background-color: #CBE198
+      background-repeat: no-repeat
+      background-size: cover
+      h4 
+        color: $color-sistema-texto
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #B06A00
+    h4
+      color: #FFF
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
+table.color-acento-contenido thead 
+    background-color: $color-acento-contenido
 
 /**************************************************************/
 /***CUSTOM STYLES***/
@@ -67,26 +149,89 @@ figcaption
     background-position: center
     background-size: cover
     background-repeat: no-repeat
+  &-2
+    background-image: url("../assets/curso/temas/bg/3.svg") !important
+    background-position: center
+    background-size: cover
+    background-repeat: no-repeat
 .bg-color
   &-1
     background-color: #FEEACB !important
   &-2
     background-color: #F1F7E4 !important
-
+  &-3
+    background-color: #E5F0CB !important
+  &-4
+    background-color: #CBE198 !important
+  &-5
+    background-color: #CCDD63 !important
+  &-6
+    background-color: #F3F9FF !important
+  &-7  
+    &::before
+      background-color: #DEE4F0 !important
+  &-8
+    &::before
+      background-color: #F3F9FF !important
+  &-9
+    background-color: $color-secundario
+.w-fit
+  width: fit-content !important
 .br
   &-1
     border-radius: 10px !important
-
+  &-2
+    border-radius: 30px !important
 .ml-cus
   &-1
     margin-left: 30px !important
       
 .hcard
   &-1
-    height: 750px !important
+    height: 300px !important
 
-      
+.p-cus
+  &-1
+    padding-right: 4rem !important
+.text-left
+  &-cus
+    text-align: left !important     
+.titulo-icono
+  background-color: #CCDD63
+  border-top-right-radius: 30px
+  width: fit-content
+  position: relative;
+  left: 20px;
+  &-text
+    margin-right: 10px
+    margin-left: 40px;
+    color: $color-sistema-texto
+    left: 20px;
 
+  &-img
+    padding: 0px
+    position: absolute
+    left: -10px
+    top: -10px
+
+    &:before
+      position: relative
+      border-bottom-right-radius: 40px
+      @media screen and (max-width: 767px)
+        height: 280%
+    img
+      position: relative
+      max-width: 50px
+.titulo-icono-2
+  background-color: #EAF1C0
+  border-top-right-radius: 30px
+  width: fit-content
+  &-text
+    margin-right: 10px
+    margin-left: 5px;
+    color: $color-sistema-texto
+
+ 
 /**************************************************************/
 /*Media Queries*/  
 /**************************************************************/
@@ -103,7 +248,31 @@ figcaption
   .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
     width: 90% !important;
     margin: 2rem !important
-  
+  .p-cus
+    &-1
+      padding: 2rem !important
+  .crd--avatarHorizontal
+    position: relative
+    padding: 1rem !important
+    & > *
+      position: relative
+    h5
+      color: #7F4FC7
+    p
+      margin-bottom: 0
+    &::before
+      position: absolute
+      content: ''
+      top: 0
+      right: 0
+      width: 100% 
+      height: 100%
+      
+    @media (max-width: 1000px)
+      padding-right: 0rem
+
+  .crd_hover_txt .crd_hover_txt--body
+    padding: 1.2rem;
   
   
 //// TABLET MINI 768--------------------------------------
@@ -120,3 +289,28 @@ figcaption
   .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
     width: 95% !important;
     margin: 1rem !important;
+  .p-cus
+    &-1
+      padding: 2rem !important
+  .crd--avatarHorizontal
+    position: relative
+    padding: 1rem !important
+    & > *
+      position: relative
+    h5
+      color: #7F4FC7
+    p
+      margin-bottom: 0
+    &::before
+      position: absolute
+      content: ''
+      top: 0
+      right: 0
+      width: 100% 
+      height: 100%
+      
+    @media (max-width: 1000px)
+      padding-right: 0rem
+
+  .crd_hover_txt .crd_hover_txt--body
+    padding: 1.2rem;
