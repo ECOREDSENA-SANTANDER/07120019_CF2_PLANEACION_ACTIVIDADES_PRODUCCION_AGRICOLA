@@ -1,1 +1,1 @@
-module.exports = 'Acciones de mejora y programación de recursos.'
+module.exports = 'Acciones de mejora y programación de recursos'

@@ -5,7 +5,7 @@
       .titulo-principal.color-acento-contenido
         .titulo-principal__numero
           span 3
-        h1 Plan de acción: definición
+        h1 Plan de acción
       .row.justify-content-center.mb-5.align-items-center(data-aos="fade-right")
         .col-sm-12.col-lg-5.d-none.d-lg-block
           img(src='@/assets/curso/temas/t3/1.png', alt='')
@@ -21,7 +21,7 @@
           .col
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
-                h4.mb-2.titcus-1 Video: Plan de acción 
+                h4.mb-2.titcus-1 Plan de acción 
                 p.mb-0 Para profundizar en el tema, se invita a consultar el siguiente enlace: 
               .col-sm-auto
                 a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=eFJOKJMVsQs" target="_blank")
@@ -42,7 +42,7 @@
               .col-lg-11.mb-lg-0.mb-4
                 p.mb-4 Define de manera clara qué se hará, quién lo realizará, cuándo y cómo. Evita generalidades y facilita la ejecución práctica. 
                 p.mb-3.fw-bold Ejemplo
-                p.mb-5 Instalar un sistema de riego por goteo en el cultivo de arándanos del lote norte, con apoyo del equipo técnico de campo, durante la primera quincena de septiembre, utilizando tubería de 16 mm y goteros auto compensantes a 30 cm de distancia. 
+                p.mb-5 Instalar un sistema de riego por goteo en el cultivo de arándanos del lote norte, con apoyo del equipo técnico de campo, durante la primera quincena de septiembre, utilizando tubería de 16 mm y goteros autocompensantes a 30 cm de distancia. 
           
             .row.justify-content-center.align-items.p-2(titulo="Temporal")
               .col-lg-11.mb-lg-0.mb-4
@@ -154,8 +154,8 @@
                         table.color-acento-contenido(alt="La tabla presenta un ejemplo de plan de acción operativo enfocado en el uso eficiente del agua. Incluye actividades como revisar aspersores, programar riegos y capacitar al personal. El responsable es el supervisor de campo, con recursos como mano de obra, cronogramas y herramientas. El tiempo estimado es de 2 semanas y los indicadores son la reducción del consumo de agua y la mejora del rendimiento por hectárea.")
                           thead.bg-color-7
                             tr
-                              th.h4.w-cus-1 Tipo de recurso
-                              th.h4 Descripción
+                              th.h4.w-cus-1 Elemento
+                              th.h4 Detalle
                           tbody
                             tr
                               td.fw-bold.text-left-cus  Actividades
@@ -206,8 +206,8 @@
                         table.color-acento-contenido(alt="La tabla muestra un plan de acción correctivo orientado a mejorar el embalaje y transporte. Incluye actividades como evaluar daños, cambiar cajas y capacitar transportistas. El responsable es el jefe de logística, con recursos como cajas plásticas y manuales de transporte. El tiempo estimado es de 3 semanas y los indicadores son la reducción de pérdidas postcosecha y la satisfacción del cliente final.")
                             thead.bg-color-7
                               tr
-                                th.h4.w-cus-1 Tipo de recurso
-                                th.h4 Descripción
+                                th.h4.w-cus-1 Elemento
+                                th.h4 Detalle
                             tbody
                               tr
                                 td.fw-bold.text-left-cus Actividades
@@ -257,8 +257,8 @@
                         table.color-acento-contenido(alt="La tabla presenta un plan de acción preventivo para el cultivo, con actividades como aplicar bioinsumos, limpiar el follaje e instalar trampas cromáticas. El responsable es el técnico fitosanitario, los recursos incluyen bioinsumos, personal y trampas, con un tiempo estimado de un mes y como indicadores el control de infestación y cumplimiento en la aplicación.")
                             thead.bg-color-7
                               tr
-                                  th.h4.w-cus-1 Tipo de recurso
-                                  th.h4 Descripción
+                                  th.h4.w-cus-1 Elemento
+                                  th.h4 Detalle
                             tbody
                               tr
                                 td.fw-bold.text-left-cus Actividades
@@ -308,8 +308,8 @@
                         table.color-acento-contenido(alt="La tabla muestra un plan de acción estratégico que incluye estudio de mercado, diseño de marca y adquisición de equipos. El responsable es el coordinador de innovación, con recursos como consultores, software y presupuesto. Se estima un tiempo de seis meses y los indicadores son productos desarrollados, ventas iniciales y obtención del registro sanitario.")
                             thead.bg-color-7
                               tr
-                                  th.h4.w-cus-1 Tipo de recurso
-                                  th.h4 Descripción
+                                  th.h4.w-cus-1 Elemento
+                                  th.h4 Detalle
                             tbody
                               tr
                                 td.fw-bold.text-left-cus Actividades
@@ -331,7 +331,7 @@
 
                               tr
                                 td.fw-bold.text-left-cus Recursos
-                                td.text-left-cus Consultores externos, software de diseño, presupuesto de inversión.
+                                td.text-left-cus Consultores externos, #[i software] de diseño, presupuesto de inversión.
 
                               tr
                                 td.fw-bold.text-left-cus Tiempo estimado
@@ -359,8 +359,8 @@
                         table.color-acento-contenido(alt="La tabla presenta un plan de acción de contingencia para responder a emergencias climáticas, con actividades como activar riego de emergencia, priorizar parcelas y solicitar apoyos. Los responsables son el encargado de producción y el administrador, con recursos de riego alternativo, presupuesto y gestión institucional. Se ejecuta de forma inmediata y se mide con área rescatada, continuidad productiva y pérdidas mitigadas.")
                             thead.bg-color-7
                               tr
-                                  th.h4.w-cus-1 Tipo de recurso
-                                  th.h4 Descripción
+                                  th.h4.w-cus-1 Elemento
+                                  th.h4 Detalle
                             tbody
 
                               tr
@@ -435,30 +435,30 @@
           img.d-none.d-lg-block(src='@/assets/curso/temas/t3/6.png', alt='')
         .col-sm-12.col-lg-9
           AcordionA.activo(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").mb-0(data-aos="fade-left")
-            .row.justify-content-center.align-items.p-2(titulo="Organiza y estructura el trabajo agrícola: ")
+            .row.justify-content-center.align-items.p-2(titulo="Organiza y estructura el trabajo agrícola")
               .col-lg-11.mb-lg-0.mb-4
                 p.mb-0 Permite descomponer tareas complejas en actividades claras y ordenadas, facilitando que el equipo conozca qué hacer, cómo y en qué momento. Esto evita la improvisación y favorece una ejecución más eficiente.
-            .row.justify-content-center.align-items.p-2(titulo="Facilita la coordinación entre áreas: ")
+            .row.justify-content-center.align-items.p-2(titulo="Facilita la coordinación entre áreas")
               .col-lg-11.mb-lg-0.mb-4
                 p.mb-0 La actividad agrícola no se limita al trabajo en campo; también integra aspectos administrativos, financieros y comerciales. Un plan de acción bien diseñado asegura que todas estas áreas trabajen de manera alineada, compartiendo objetivos y tiempos.
 
-            .row.justify-content-center.align-items.p-2(titulo="Anticipa problemas y controla desviaciones: ")
+            .row.justify-content-center.align-items.p-2(titulo="Anticipa problemas y controla desviaciones")
               .col-lg-11.mb-lg-0.mb-4
                 p.mb-0 La planificación permite identificar con antelación riesgos o limitaciones, estableciendo acciones preventivas o correctivas que evitan que pequeñas dificultades se conviertan en grandes obstáculos.
 
-            .row.justify-content-center.align-items.p-2(titulo="Optimiza el uso de recursos y evita desperdicios: ")
+            .row.justify-content-center.align-items.p-2(titulo="Optimiza el uso de recursos y evita desperdicios")
               .col-lg-11.mb-lg-0.mb-4
                 p.mb-0 Mediante una asignación adecuada de recursos humanos, materiales y financieros, se reducen costos innecesarios y se mejora la productividad.
 
-            .row.justify-content-center.align-items.p-2(titulo="Contribuye al cumplimiento de la misión y visión empresarial: ")
+            .row.justify-content-center.align-items.p-2(titulo="Contribuye al cumplimiento de la misión y visión empresarial")
               .col-lg-11.mb-lg-0.mb-4
                 p.mb-0 Las acciones planificadas se alinean con los objetivos estratégicos de la empresa, asegurando que cada esfuerzo impulse el crecimiento y desarrollo sostenible del negocio agrícola.
             
-            .row.justify-content-center.align-items.p-2(titulo="Fomenta la toma de decisiones basadas en datos: ")
+            .row.justify-content-center.align-items.p-2(titulo="Fomenta la toma de decisiones basadas en datos")
               .col-lg-11.mb-lg-0.mb-4
                 p.mb-0 Al incorporar indicadores y plazos, el plan de acción permite evaluar resultados de manera objetiva, brindando insumos para tomar decisiones informadas y oportunas.
             
-            .row.justify-content-center.align-items.p-2(titulo="Impulsa la mejora continua y la sostenibilidad: ")
+            .row.justify-content-center.align-items.p-2(titulo="Impulsa la mejora continua y la sostenibilidad")
               .col-lg-11.mb-lg-0.mb-4
                 p.mb-0 Gracias al ciclo de seguimiento, evaluación y ajuste, el plan de acción promueve la adaptación constante frente a los cambios del mercado, del entorno ambiental y de las innovaciones tecnológicas, asegurando la permanencia y competitividad del negocio agrícola a largo plazo.
       .row.align-items-center.mb-5.titulo-icono(data-aos="fade-right")
@@ -473,8 +473,8 @@
         table.color-acento-contenido(alt="La tabla describe los componentes básicos de un plan de acción: objetivos que definen la meta, actividades concretas para alcanzarlos, responsables asignados, recursos necesarios, plazos y cronogramas, indicadores de avance y mecanismos de seguimiento y evaluación.")
           thead.bg-color-7 
             tr
-              th.h4.w-25 Tipo de recurso
-              th.h4 Descripción
+              th.h4.w-25 Componente
+              th.h4 Descripción ampliada
           tbody
             tr
               td.fw-bold.text-left-cus Objetivo

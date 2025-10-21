@@ -72,7 +72,7 @@
                     p.mb-0 Presupuesto para la operación administrativa, pago de salarios, servicios y suministros.
                   li.d-flex
                       i.fas.fa-circle-check
-                      p.mb-0 Fondos para inversiones en tecnologías administrativas (software, sistemas).
+                      p.mb-0 Fondos para inversiones en tecnologías administrativas (#[i software], sistemas).
                   li.d-flex
                       i.fas.fa-circle-check
                       p.mb-0 Control de ingresos y egresos, manejo de créditos y financiamientos.
@@ -83,7 +83,7 @@
                 ul.lista-ul--color.color-secundario.mb-0
                   li.d-flex
                     i.fas.fa-circle-check 
-                    p.mb-0 Sistemas de gestión administrativa, (Planificación de Recursos Empresariales (ERP), software contable, hojas de cálculo).
+                    p.mb-0 Sistemas de gestión administrativa, (Planificación de Recursos Empresariales (ERP), #[i software] contable, hojas de cálculo).
                   li.d-flex
                       i.fas.fa-circle-check
                       p.mb-0 Equipos informáticos: computadoras, impresoras, dispositivos móviles.
@@ -125,7 +125,7 @@
           img(src='@/assets/curso/temas/bg/1.svg', alt='')
         .col
           h3.mb-0.titulo-icono-text.px-0.py-2  Características de los recursos en el área administrativa de las empresas agrícolas 
-      
+      p.mb-5 Los recursos utilizados en la gestión administrativa de una empresa agrícola presentan una serie de características que los hacen esenciales para el buen funcionamiento organizacional. 
       .row.justify-content-center.mb-5(data-aos="fade-right")
         .col-sm-12.col-lg-8
           img(src='@/assets/curso/temas/t2/4.svg', alt='')
@@ -139,7 +139,7 @@
                   p.mb-0 Son finitos (personal, presupuesto, tecnología) y requieren una gestión eficiente para optimizar su uso. 
               .row(numero="2" titulo="Específicos")
                 .col-sm-12.col-lg-12
-                  p.mb-0 Cada recurso tiene un propósito definido, como un software contable para la gestión financiera. 
+                  p.mb-0 Cada recurso tiene un propósito definido, como un #[i software] contable para la gestión financiera. 
               .row(numero="3" titulo="Complementarios")
                 .col-sm-12.col-lg-12
                   p.mb-0 Recursos humanos, financieros, tecnológicos y materiales deben integrarse de manera coordinada para cumplir los objetivos administrativos. 

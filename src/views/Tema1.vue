@@ -20,15 +20,12 @@
         .col
           h3.mb-0.titulo-icono-text.px-0.py-2  Tipos de acciones de mejora   
       p.mb-5(data-aos="fade-right") Las acciones de mejora se clasifican en diferentes tipos, según el propósito y el enfoque que tengan dentro de la organización agrícola. Conocer estas categorías es esencial para aplicarlas adecuadamente y obtener resultados efectivos. 
-      .row.align-items-center.mb-5.titulo-icono-2(data-aos="fade-right")
-        .col
-          h3.mb-0.titulo-icono-2-text.px-0.py-2  Tipos de acciones de mejora  
       TabsA.color-acento-botones.mb-5(data-aos="fade-right")
         .tarjeta.bg-color-1.p-5(titulo="Acciones correctivas")
           h4 Definición
           p.mb-5 Eliminan las causas de problemas o no conformidades ya detectadas en los procesos, evitando su repetición. Son reactivas. 
           h4 Ejemplo agrícola
-          p.mb-0 Si un manejo inadecuado del riego provoca pudrición en raíces de tomate, se ajusta la programación, se reparan los sistemas defectuosos o se cambia la técnica (ej. de aspersión a goteo). 
+          p.mb-0 Si un manejo inadecuado del riego provoca pudrición en raíces de tomate, se ajusta la programación, se reparan los sistemas defectuosos o se cambia la técnica (ejemplo: de aspersión a goteo). 
         .tarjeta.bg-color-1.p-5(titulo="Acciones preventivas")
           h4 Definición
           p.mb-5 Se anticipan a posibles fallos, riesgos o problemas antes de que ocurran, basándose en análisis de riesgos y tendencias. 
@@ -43,7 +40,7 @@
           h4 Definición
           p.mb-5 Están alineadas con los objetivos de largo plazo y visión empresarial. Buscan transformar, innovar, diversificar y abrir nuevos mercados. 
           h4 Ejemplo agrícola
-          p.mb-0 La empresa introduce un nuevo cultivo de alto valor comercial (ej. pitahaya o aguacate) con demanda internacional. Esto requiere inversión en infraestructura, capacitación y marketing, diversificando ingresos y reduciendo riesgos. 
+          p.mb-0 La empresa introduce un nuevo cultivo de alto valor comercial (ejemplo: pitahaya o aguacate) con demanda internacional. Esto requiere inversión en infraestructura, capacitación y #[i marketing], diversificando ingresos y reduciendo riesgos. 
         .tarjeta.bg-color-1.p-5(titulo="Acciones operativas")
           h4 Definición
           p.mb-5 Se enfocan en mejorar las actividades diarias, optimizando recursos, tiempos y métodos para aumentar eficiencia y reducir costos. 
@@ -59,34 +56,6 @@
   
       p.mb-5(data-aos="fade-right") Para que una acción de mejora sea efectiva y cumpla su propósito dentro de una organización, especialmente en una empresa agrícola, debe cumplir con ciertos requisitos fundamentales que aseguren su correcta implementación y seguimiento.
       SlyderF.circl-arrow.mb-5(columnas="col-md-6 col-lg-6 col-xl-4")(data-aos="fade-right")
-        .tarjeta.bg-color-4.p-4
-          .row.justify-content-center.mb-3
-            .col-4
-              img(src='@/assets/curso/temas/t1/6.svg' alt='')
-          h4.text-center.bg-color-5.w-fit.px-3.m-auto.mb-4.py-1 Comunicación efectiva 
-          p.text-center.mb-0 Informar a los involucrados sobre objetivos, beneficios y responsabilidades, fomentando compromiso y colaboración. 
-  
-        .tarjeta.bg-color-4.p-4
-          .row.justify-content-center.mb-3
-            .col-4
-              img(src='@/assets/curso/temas/t1/7.svg' alt='')
-          h4.text-center.bg-color-5.w-fit.px-3.m-auto.mb-4.py-1 Monitoreo y seguimiento 
-          p.text-center.mb-0 Verificar avances de manera constante, identificar desviaciones y aplicar ajustes oportunos.  
-        
-        .tarjeta.bg-color-4.p-4
-          .row.justify-content-center.mb-3
-            .col-4
-              img(src='@/assets/curso/temas/t1/8.svg' alt='')
-          h4.text-center.bg-color-5.w-fit.px-3.m-auto.mb-4.py-1 Planificación detallada 
-          p.text-center.mb-0 Incluir cronogramas, responsables, recursos necesarios y métodos de ejecución bien estructurados. 
-        
-        .tarjeta.bg-color-4.p-4
-          .row.justify-content-center.mb-3
-            .col-4
-              img(src='@/assets/curso/temas/t1/9.svg' alt='')
-          h4.text-center.bg-color-5.w-fit.px-3.m-auto.mb-4.py-1 Definición de objetivos y resultados 
-          p.text-center.mb-0 Establecer metas específicas, medibles y con plazos definidos que faciliten la evaluación de resultados. 
-        
         .tarjeta.bg-color-4.p-4
           .row.justify-content-center.mb-3
             .col-4
@@ -108,7 +77,39 @@
           h4.text-center.bg-color-5.w-fit.px-3.m-auto.mb-4.py-1 Adecuación a los recursos disponibles 
           p.text-center.mb-0 Considerar la capacidad técnica, financiera, humana y material para asegurar la viabilidad de la acción. 
   
+        .tarjeta.bg-color-4.p-4
+          .row.justify-content-center.mb-3
+            .col-4
+              img(src='@/assets/curso/temas/t1/9.svg' alt='')
+          h4.text-center.bg-color-5.w-fit.px-3.m-auto.mb-4.py-1 Definición de objetivos y resultados 
+          p.text-center.mb-0 Establecer metas específicas, medibles y con plazos definidos que faciliten la evaluación de resultados. 
+        
+
+        .tarjeta.bg-color-4.p-4
+          .row.justify-content-center.mb-3
+            .col-4
+              img(src='@/assets/curso/temas/t1/8.svg' alt='')
+          h4.text-center.bg-color-5.w-fit.px-3.m-auto.mb-4.py-1 Planificación detallada 
+          p.text-center.mb-0 Incluir cronogramas, responsables, recursos necesarios y métodos de ejecución bien estructurados. 
+        
+        .tarjeta.bg-color-4.p-4
+          .row.justify-content-center.mb-3
+            .col-4
+              img(src='@/assets/curso/temas/t1/7.svg' alt='')
+          h4.text-center.bg-color-5.w-fit.px-3.m-auto.mb-4.py-1 Monitoreo y seguimiento 
+          p.text-center.mb-0 Verificar avances de manera constante, identificar desviaciones y aplicar ajustes oportunos.  
+        
+        .tarjeta.bg-color-4.p-4
+          .row.justify-content-center.mb-3
+            .col-4
+              img(src='@/assets/curso/temas/t1/6.svg' alt='')
+          h4.text-center.bg-color-5.w-fit.px-3.m-auto.mb-4.py-1 Comunicación efectiva 
+          p.text-center.mb-0 Informar a los involucrados sobre objetivos, beneficios y responsabilidades, fomentando compromiso y colaboración. 
   
+        
+        
+        
+      
       .row.align-items-center.mb-5.titulo-icono(data-aos="fade-right")
         .col-auto.titulo-icono-img
           img(src='@/assets/curso/temas/bg/1.svg', alt='')
@@ -170,7 +171,7 @@
                   img(src="@/assets/curso/temas/t1/16.svg", alt="alt").img100
               .col
                 h4 Comercialización y servicio al cliente 
-                p.mb-0 Diversificación de canales de venta, desarrollo de estrategias de marketing, mejora en la atención al cliente y fortalecimiento de la imagen corporativa para incrementar la competitividad y presencia en el mercado. 
+                p.mb-0 Diversificación de canales de venta, desarrollo de estrategias de #[i marketing], mejora en la atención al cliente y fortalecimiento de la imagen corporativa para incrementar la competitividad y presencia en el mercado. 
 
           .crd.crd--avatarHorizontal.crd--last.py-4
             .row.align-items-center
@@ -258,10 +259,10 @@
           h3.mb-0.titulo-icono-text.px-0.py-2 Objetivos 
 
       .row.justify-content-center.mb-5(data-aos="fade-right")
-        .col-sm-12.col-lg-6.bg-color-2.p-5
-          img.w-75.m-auto(src='@/assets/curso/temas/t1/27.svg', alt='Representa las características de los objetivos SMART: deben ser específicos (claros y definidos), medibles (cuantificables), alcanzables (posibles de lograr), realistas (coherentes con los recursos y capacidades) y delimitados en el tiempo (con plazos definidos).')
         .col-sm-12.col-lg-6.d-flex.justify-content-center.align-items-center.bg-color-6.p-5
             p.mb-0 Las acciones de mejora requieren objetivos bien definidos que orienten su diseño, implementación y evaluación. Estos objetivos actúan como una guía para el desarrollo de cualquier proyecto o plan de trabajo y, para ser efectivos, deben ser claros, específicos, medibles, alcanzables, realistas y delimitados en el tiempo, garantizando así su viabilidad y el adecuado seguimiento de los resultados. 
+        .col-sm-12.col-lg-6.bg-color-2.p-5
+          img.w-75.m-auto(src='@/assets/curso/temas/t1/27.svg', alt='Representa las características de los objetivos SMART: deben ser específicos (claros y definidos), medibles (cuantificables), alcanzables (posibles de lograr), realistas (coherentes con los recursos y capacidades) y delimitados en el tiempo (con plazos definidos).')
 
       .row.justify-content-center.cursor-pointer.mb-5(data-aos='fade-right')
         .col-xl-4.col-lg-4.col-md-6.col-11.mb-4.mb-xl-0
@@ -406,7 +407,7 @@
 
             tr
               td.fw-bold Satisfacción cliente
-              td.text-left-cus Nivel de satisfacción (escala 1-5).
+              td.text-left-cus Nivel de satisfacción (escala 1 - 5).
               td.text-left-cus Evaluación promedio de clientes o consumidores.
   
   

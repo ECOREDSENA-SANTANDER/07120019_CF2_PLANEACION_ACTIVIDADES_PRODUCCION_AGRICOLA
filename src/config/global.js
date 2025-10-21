@@ -1,6 +1,6 @@
 export default {
   global: {
-    Name: 'Acciones de mejora y programación de recursos.',
+    Name: 'Acciones de mejora y programación de recursos',
     Description:
       'Este componente formativo tiene como propósito fortalecer las capacidades de análisis y toma de decisiones en el contexto de una empresa agrícola. Busca que los aprendices desarrollen la habilidad de identificar y proponer acciones de mejora a partir del diagnóstico de los procesos administrativos, considerando la disponibilidad de recursos y asegurando su coherencia con la estrategia organizacional.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
@@ -48,7 +48,7 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Plan de acción: definición',
+        titulo: 'Plan de acción',
         desarrolloContenidos: true,
       },
     ],
@@ -271,7 +271,7 @@ export default {
         {
           nombre: 'Andrés Javier Pacheco Wandurraga',
           cargo: 'Experto temático',
-          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
           nombre: 'Erika Fernanda Mejía Pinzón',
