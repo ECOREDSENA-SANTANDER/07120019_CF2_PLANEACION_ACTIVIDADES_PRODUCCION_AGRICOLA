@@ -24,7 +24,7 @@
                 h4.mb-2.titcus-1 Plan de acción 
                 p.mb-0 Para profundizar en el tema, se invita a consultar el siguiente enlace: 
               .col-sm-auto
-                a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=eFJOKJMVsQs" target="_blank")
+                a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=uydohFz8E4E" target="_blank")
                   span Ir al sitio
                   i.fas.fa-play
       .row.align-items-center.mb-5.titulo-icono(data-aos="fade-right")
