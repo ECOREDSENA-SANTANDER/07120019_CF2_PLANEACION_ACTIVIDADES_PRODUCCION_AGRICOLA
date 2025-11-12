@@ -282,7 +282,7 @@
                 img(src="@/assets/curso/temas/t1/29.png", alt="")
             .crd_hover_txt--body.text-center
               h4.mb-3 Optimizar procesos y recursos 
-              p.mb-0 Mejorar la eficiencia operativa mediante un uso adecuado de los recursos, incrementando la productividad y reduciendo costos innecesarios
+              p.mb-0 Mejorar la eficiencia operativa mediante un uso adecuado de los recursos, incrementando la productividad y reduciendo costos innecesarios.
         .col-xl-4.col-lg-4.col-md-6.col-11.mb-4.mb-xl-0
           .crd_hover_txt
             .indicador--hover
@@ -382,7 +382,7 @@
           tbody
             tr
               td.fw-bold Producción
-              td.text-left-cus Rendimiento por hectárea (%).
+              td.text-left-cus Rendimiento por hectárea ( % ).
               td.text-left-cus Incremento del volumen producido por área cultivada.
 
             tr
@@ -392,12 +392,12 @@
 
             tr
               td.fw-bold Recursos
-              td.text-left-cus Reducción en consumo de agua (%).
+              td.text-left-cus Reducción en consumo de agua ( % ).
               td.text-left-cus Disminución en litros de agua usados por cultivo.
 
             tr
               td.fw-bold Costos
-              td.text-left-cus Reducción de costos operativos (%).
+              td.text-left-cus Reducción de costos operativos ( % ).
               td.text-left-cus Porcentaje de ahorro en insumos o mano de obra.
 
             tr

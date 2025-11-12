@@ -32,7 +32,7 @@
           img(src='@/assets/curso/temas/bg/1.svg', alt='')
         .col
           h3.mb-0.titulo-icono-text.px-0.py-2 Características del plan de acción 
-      p.mb-5(data-aos="fade-right") Para que un plan de acción en el ámbito agrícola sea efectivo, debe cumplir con una serie de criterios que garanticen su claridad, organización y capacidad de adaptación a las condiciones cambiantes del entorno. Estos criterios permiten estructurar las actividades de manera estratégica, asegurando que los objetivos se alcancen de forma eficiente y medible. A continuación, se presenta las principales características que debe tener un plan de acción, junto con ejemplos aplicados al contexto agrícola. 
+      p.mb-5(data-aos="fade-right") Para que un plan de acción en el ámbito agrícola sea efectivo, debe cumplir con una serie de criterios que garanticen su claridad, organización y capacidad de adaptación a las condiciones cambiantes del entorno. Estos criterios permiten estructurar las actividades de manera estratégica, asegurando que los objetivos se alcancen de forma eficiente y medible. A continuación, se presentan las principales características que debe tener un plan de acción, junto con ejemplos aplicados al contexto agrícola. 
       .row.justify-content-center.mb-5.align-items-center(data-aos="fade-right")
         .col-sm-12.col-lg-3.d-none.d-lg-block
           img(src='@/assets/curso/temas/t3/3.png', alt='')
@@ -185,7 +185,7 @@
 
                             tr
                               td.fw-bold.text-left-cus  Indicadores
-                              td.text-left-cus  Reducción del consumo de agua (litros/ha), mejora del rendimiento por hectárea.
+                              td.text-left-cus  Reducción del consumo de agua (litros / ha), mejora del rendimiento por hectárea.
             
 
               .row.justify-content-center.align-items.p-0.p-lg-4.mb-0
@@ -237,7 +237,7 @@
 
                               tr
                                 td.fw-bold.text-left-cus Indicadores
-                                td.text-left-cus Reducción de pérdidas postcosecha (%), satisfacción del cliente final.
+                                td.text-left-cus Reducción de pérdidas postcosecha ( % ), satisfacción del cliente final.
 
               .row.justify-content-center.align-items.p-0.p-lg-4.mb-0
                 .col-lg-11

@@ -83,7 +83,7 @@
                 ul.lista-ul--color.color-secundario.mb-0
                   li.d-flex
                     i.fas.fa-circle-check 
-                    p.mb-0 Sistemas de gestión administrativa, (Planificación de Recursos Empresariales (ERP), #[i software] contable, hojas de cálculo).
+                    p.mb-0 Sistemas de gestión administrativa, Planificación de Recursos Empresariales (ERP), #[i software] contable, hojas de cálculo.
                   li.d-flex
                       i.fas.fa-circle-check
                       p.mb-0 Equipos informáticos: computadoras, impresoras, dispositivos móviles.
