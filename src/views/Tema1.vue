@@ -382,7 +382,7 @@
           tbody
             tr
               td.fw-bold Producción
-              td.text-left-cus Rendimiento por hectárea ( % ).
+              td.text-left-cus Rendimiento por hectárea (%).
               td.text-left-cus Incremento del volumen producido por área cultivada.
 
             tr
@@ -392,12 +392,12 @@
 
             tr
               td.fw-bold Recursos
-              td.text-left-cus Reducción en consumo de agua ( % ).
+              td.text-left-cus Reducción en consumo de agua (%).
               td.text-left-cus Disminución en litros de agua usados por cultivo.
 
             tr
               td.fw-bold Costos
-              td.text-left-cus Reducción de costos operativos ( % ).
+              td.text-left-cus Reducción de costos operativos (%).
               td.text-left-cus Porcentaje de ahorro en insumos o mano de obra.
 
             tr

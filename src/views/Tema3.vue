@@ -185,7 +185,7 @@
 
                             tr
                               td.fw-bold.text-left-cus  Indicadores
-                              td.text-left-cus  Reducción del consumo de agua (litros / ha), mejora del rendimiento por hectárea.
+                              td.text-left-cus  Reducción del consumo de agua (litros/ha), mejora del rendimiento por hectárea.
             
 
               .row.justify-content-center.align-items.p-0.p-lg-4.mb-0
@@ -237,7 +237,7 @@
 
                               tr
                                 td.fw-bold.text-left-cus Indicadores
-                                td.text-left-cus Reducción de pérdidas postcosecha ( % ), satisfacción del cliente final.
+                                td.text-left-cus Reducción de pérdidas postcosecha (%), satisfacción del cliente final.
 
               .row.justify-content-center.align-items.p-0.p-lg-4.mb-0
                 .col-lg-11
