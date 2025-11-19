@@ -21,7 +21,7 @@
           .col
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
-                h4.mb-2.titcus-1 Plan de acción 
+                h5.mb-2.titcus-1 Plan de acción 
                 p.mb-0 Para profundizar en el tema, se invita a consultar el siguiente enlace: 
               .col-sm-auto
                 a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=uydohFz8E4E" target="_blank")
@@ -427,10 +427,9 @@
         .col
           h3.mb-0.titulo-icono-text.px-0.py-2 Importancia 
       
+      p.mb-5 El plan de acción es una herramienta esencial para garantizar el éxito, la eficiencia y la sostenibilidad de las actividades agrícolas. Su importancia se refleja en diversos aspectos clave: 
       .row.justify-content-center.mb-5(data-aos="fade-right")
         .col-sm-12.col-lg-3
-          .bg-color-6.p-4.mb-3.br-1
-            p.mb-0 El plan de acción es una herramienta esencial para garantizar el éxito, la eficiencia y la sostenibilidad de las actividades agrícolas. Su importancia se refleja en diversos aspectos clave: 
           
           img.d-none.d-lg-block(src='@/assets/curso/temas/t3/6.png', alt='')
         .col-sm-12.col-lg-9

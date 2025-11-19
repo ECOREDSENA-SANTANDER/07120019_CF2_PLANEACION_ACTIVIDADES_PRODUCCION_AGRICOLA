@@ -151,7 +151,7 @@
               .col-auto.d-none.d-lg-block
                 figure
                   img(src="@/assets/curso/temas/t1/14.svg", alt="alt").img100
-              .col
+              .col.col-lg-9
                 h4 Gestión del talento humano 
                 p.mb-0 Capacitación continua, mejora de las condiciones laborales, organización adecuada del trabajo y promoción del compromiso y la motivación del equipo, fortaleciendo el capital humano de la empresa. 
           

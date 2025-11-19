@@ -22,7 +22,7 @@
           .col
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
-                h4.mb-2.titcus-1 Video: LOS RECURSOS DE UNA ORGANIZACIÓN explicados con EJEMPLOS 
+                h5.mb-2.titcus-1 Video: LOS RECURSOS DE UNA ORGANIZACIÓN explicados con EJEMPLOS 
                 p.mb-0 Para profundizar en el tema, se invita a consultar el siguiente enlace: 
               .col-sm-auto
                 a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=mUeGnTMjCp0&t=34s" target="_blank")
