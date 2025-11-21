@@ -37,7 +37,7 @@
 
       p.mb-5(data-aos="fade-right") La gestión adecuada de los recursos es de gran importancia para una administración eficiente ya que permite mejorar la planificación estratégica, optimizar costos, asegurar el cumplimiento normativo y facilitar la toma de decisiones acertadas, contribuyendo al éxito y sostenibilidad de la empresa agrícola. 
       .row.justify-content-center.mb-5(data-aos="fade-right")
-        .col-sm-12.col-lg-9
+        .col-sm-12.col-lg-7
           img(src='@/assets/curso/temas/t2/3.svg', alt='')
 
       .titulo-sexto.color-acento-contenido(data-aos="fade-left")
